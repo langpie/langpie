@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CS5080E
+D 5V USB Input, 2S Li-battery, Step-up Charging Management IC
+F http://www.szczkjgs.com/UploadFiles/fujian/3747/CS5080.pdf
+$ENDCMP
+#
+$CMP MP1584
+D 3A 1.5MHz 28V Step-Down Converter
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584/document_id/204
+$ENDCMP
+#
+#End Doc Library

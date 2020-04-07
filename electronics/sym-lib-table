@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name langpie)(type Legacy)(uri ${KIPRJMOD}/langpie.lib)(options "")(descr ""))
+)
