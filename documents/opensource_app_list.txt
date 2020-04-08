@@ -1,0 +1,38 @@
+# Raspberry Pi Based Open Source Smart Car
+# Open Source Design Software
+
+## PCB Design Kit
+    -KiCAD
+    https://www.kicad-pcb.org/
+
+## Mechanical Design Kit
+    -FreeCAD
+    https://www.freecadweb.org/
+
+## Image Editor
+    -GIMP
+    https://www.gimp.org/
+
+## Vector Graphic Editor
+    -InkScape
+    https://inkscape.org/
+
+## Visio Alternatives
+    -Pencil Project
+    https://pencil.evolus.vn/
+
+## Office Alternatives
+    -LibreOffice
+    https://www.libreoffice.org/
+    -OpenOffice
+    https://www.openoffice.org/
+    -WPS
+    https://www.wps.com/
+
+## Mind Map
+    -XMind
+    https://www.xmind.net/
+
+## Project Management
+    -GanttProject
+    https://www.ganttproject.biz/
