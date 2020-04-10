@@ -30,3 +30,12 @@ Codename:	buster
 * Mac: scp
 * Linux: scp
 
+## 自动更换源脚本使用方法
+```bash
+git clone https://github.com/langpie/langpie.git
+cd langpie/documents/RaspberryPi/
+chmod +x auto_tsinghua_source.sh
+./auto_tsinghua_source.sh
+```
+### Have Fun
+
