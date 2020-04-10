@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -30,5 +30,11 @@ S 5050 2200 900  800
 U 5E914BA5
 F0 "Motor Driver" 50
 F1 "motor_driver.sch" 50
+$EndSheet
+$Sheet
+S 6450 2200 850  800 
+U 5E9108BA
+F0 "RPi GPIO" 50
+F1 "rpi_gpio.sch" 50
 $EndSheet
 $EndSCHEMATC
