@@ -395,4 +395,8 @@ F 3 "" H 8000 4550 50  0001 C CNN
 	1    8000 4550
 	0    -1   -1   0   
 $EndComp
+Text Label 8600 4650 0    50   ~ 0
+BATT
+Text Label 2300 3050 0    50   ~ 0
+VBUS
 $EndSCHEMATC
