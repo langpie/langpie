@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -14,27 +14,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2350 2200 900  800 
+S 4800 2050 900  800 
 U 5E90B2B2
 F0 "DC DC Converter" 50
 F1 "dc_dc.sch" 50
 $EndSheet
 $Sheet
-S 3650 2200 900  800 
+S 6100 2050 900  800 
 U 5E915994
 F0 "Battery Charger" 50
 F1 "charger.sch" 50
 $EndSheet
 $Sheet
-S 5050 2200 900  800 
+S 4800 3850 900  800 
 U 5E914BA5
-F0 "Motor Driver" 50
-F1 "motor_driver.sch" 50
-$EndSheet
-$Sheet
-S 6450 2200 850  800 
-U 5E9108BA
-F0 "RPi GPIO" 50
-F1 "rpi_gpio.sch" 50
+F0 "Motor Driver and RPi GPIO" 50
+F1 "motor_driver_rpi_pi.sch" 50
 $EndSheet
 $EndSCHEMATC
