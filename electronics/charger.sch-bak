@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
-Title "Langpie"
+Sheet 4 4
+Title ""
 Date "2020-04-08"
 Rev "v1.0"
-Comp "Langpie"
-Comment1 "github.com/langpie/langpie.git"
+Comp ""
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -82,10 +82,10 @@ $EndComp
 Wire Wire Line
 	7000 4150 7100 4150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5E8CB6D9
 P 6600 4900
-F 0 "#PWR?" H 6600 4650 50  0001 C CNN
+F 0 "#PWR0110" H 6600 4650 50  0001 C CNN
 F 1 "GND" H 6605 4727 50  0000 C CNN
 F 2 "" H 6600 4900 50  0001 C CNN
 F 3 "" H 6600 4900 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "~" H 4550 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 5E8CBEAD
 P 3350 4200
-F 0 "#PWR?" H 3350 3950 50  0001 C CNN
+F 0 "#PWR0111" H 3350 3950 50  0001 C CNN
 F 1 "GND" H 3355 4027 50  0000 C CNN
 F 2 "" H 3350 4200 50  0001 C CNN
 F 3 "" H 3350 4200 50  0001 C CNN
@@ -115,10 +115,10 @@ F 3 "" H 3350 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 5E8CBEFE
 P 3900 4200
-F 0 "#PWR?" H 3900 3950 50  0001 C CNN
+F 0 "#PWR0112" H 3900 3950 50  0001 C CNN
 F 1 "GND" H 3905 4027 50  0000 C CNN
 F 2 "" H 3900 4200 50  0001 C CNN
 F 3 "" H 3900 4200 50  0001 C CNN
@@ -148,10 +148,10 @@ F 3 "~" H 4800 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 5E8DC216
 P 5350 3700
-F 0 "#PWR?" H 5350 3450 50  0001 C CNN
+F 0 "#PWR0113" H 5350 3450 50  0001 C CNN
 F 1 "GND" V 5355 3572 50  0000 R CNN
 F 2 "" H 5350 3700 50  0001 C CNN
 F 3 "" H 5350 3700 50  0001 C CNN
@@ -235,7 +235,6 @@ Wire Wire Line
 Connection ~ 7100 4150
 Wire Wire Line
 	3350 3300 3350 3150
-Connection ~ 3350 3150
 Connection ~ 3900 3150
 Wire Wire Line
 	3350 3150 3900 3150
@@ -339,10 +338,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 4650 7100 4850
 Wire Wire Line
-	7100 4850 9350 4850
+	7100 4850 9150 4850
 Connection ~ 7100 4850
 Wire Wire Line
-	7500 4650 9350 4650
+	7500 4650 9150 4650
 Wire Wire Line
 	7500 4150 7500 4650
 Wire Wire Line
@@ -362,20 +361,16 @@ Wire Wire Line
 	8450 4500 8600 4500
 Connection ~ 8450 4500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 5E980AC4
 P 8600 4500
-F 0 "#PWR?" H 8600 4250 50  0001 C CNN
+F 0 "#PWR0114" H 8600 4250 50  0001 C CNN
 F 1 "GND" V 8605 4372 50  0000 R CNN
 F 2 "" H 8600 4500 50  0001 C CNN
 F 3 "" H 8600 4500 50  0001 C CNN
 	1    8600 4500
 	0    -1   -1   0   
 $EndComp
-Text Label 9200 4650 0    50   ~ 0
-BATT
-Text Label 3900 3150 0    50   ~ 0
-VBUS
 Wire Wire Line
 	3900 3150 4550 3150
 Wire Wire Line
@@ -395,54 +390,12 @@ Wire Wire Line
 Connection ~ 4550 3150
 Wire Wire Line
 	4550 3150 5900 3150
-$Comp
-L power:GND #PWR?
-U 1 1 5E964892
-P 9350 4850
-AR Path="/5E90B2B2/5E964892" Ref="#PWR?"  Part="1" 
-AR Path="/5E915994/5E964892" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9350 4600 50  0001 C CNN
-F 1 "GND" H 9355 4677 50  0000 C CNN
-F 2 "" H 9350 4850 50  0001 C CNN
-F 3 "" H 9350 4850 50  0001 C CNN
-	1    9350 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5E96F345
-P 2650 3350
-F 0 "J?" H 2707 3817 50  0000 C CNN
-F 1 "USB_B_Micro" H 2707 3726 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 2800 3300 50  0001 C CNN
-F 3 "~" H 2800 3300 50  0001 C CNN
-F 4 "https://item.szlcsc.com/10961.html" H 2650 3350 50  0001 C CNN "Seller"
-	1    2650 3350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2950 3350
-NoConn ~ 2950 3450
-NoConn ~ 2950 3550
+Text HLabel 9150 4650 2    50   Input ~ 0
+BATT
+Text HLabel 2650 3150 0    50   Input ~ 0
+VBUS
 Wire Wire Line
-	2950 3150 3350 3150
-$Comp
-L power:GND #PWR?
-U 1 1 5E979834
-P 2650 4200
-F 0 "#PWR?" H 2650 3950 50  0001 C CNN
-F 1 "GND" H 2655 4027 50  0000 C CNN
-F 2 "" H 2650 4200 50  0001 C CNN
-F 3 "" H 2650 4200 50  0001 C CNN
-	1    2650 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 3750 2550 3850
-Wire Wire Line
-	2550 3850 2650 3850
-Wire Wire Line
-	2650 3850 2650 3750
-Wire Wire Line
-	2650 3850 2650 4200
-Connection ~ 2650 3850
+	3350 3150 2650 3150
+Text HLabel 9150 4850 2    50   Input ~ 0
+GND
 $EndSCHEMATC
