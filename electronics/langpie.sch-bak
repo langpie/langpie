@@ -19,8 +19,8 @@ U 5E914BA5
 F0 "Motor Driver and RPi GPIO" 50
 F1 "motor_driver_rpi_pi.sch" 50
 F2 "Motor1_A" I R 7250 3600 50 
-F3 "Motor1_B" I R 7250 3700 50 
-F4 "Motor2_A" I R 7250 3900 50 
+F3 "Motor1_B" I R 7250 3900 50 
+F4 "Motor2_A" I R 7250 3700 50 
 F5 "Motor2_B" I R 7250 4000 50 
 F6 "BATT" I L 6250 3350 50 
 F7 "5V" I L 6250 3450 50 

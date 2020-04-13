@@ -19,11 +19,15 @@
 * hahaha  hahaha#langpie.ga
 * 刘津屹  liujinyi#langpie.ga
 * 中华绘图铅笔  pencil#langpie.ga
-* 飞鸿  feihong#langpie.ga
+* 飞鸿  bg3nit#langpie.ga
 * 洋洋大叔  bi3qdn#langpie.ga
-* 祁建鑫  qijianxin#langpie.ga
+* 祁建鑫  qjx#langpie.ga
 * wjcwqc  wjcwqc#langpie.ga
+* 小白 dmuxiaobai#langpie.ga
+* lqh  lqh#langpie.ga
+* kwanghue kwanghue#langpie.ga
+* 张翼 zy#langpie.ga
 
-## Project website: 
+##  项目站点 Project website: 
 
 www.langpie.ga

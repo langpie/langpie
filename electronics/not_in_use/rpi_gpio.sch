@@ -1,0 +1,411 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5E91CE34
+P 5650 3300
+F 0 "J?" H 5700 4417 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5700 4326 50  0000 C CNN
+F 2 "" H 5650 3300 50  0001 C CNN
+F 3 "~" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	1    0    0    -1  
+$EndComp
+Text Label 4850 2400 0    50   ~ 0
+3.3V
+Text Label 4850 2500 0    50   ~ 0
+SDA.1
+Text Label 4850 2600 0    50   ~ 0
+SCL.1
+Text Label 4850 2700 0    50   ~ 0
+GPIO.7
+Text Label 4850 2800 0    50   ~ 0
+GND
+Text Label 4850 2900 0    50   ~ 0
+GPIO.0
+Text Label 4850 3000 0    50   ~ 0
+GPIO.2
+Text Label 4850 3100 0    50   ~ 0
+GPIO.3
+Text Label 4850 3200 0    50   ~ 0
+3.3V
+Text Label 4850 3300 0    50   ~ 0
+MOSI
+Text Label 4850 3400 0    50   ~ 0
+MISO
+Text Label 4850 3500 0    50   ~ 0
+SCLK
+Text Label 4850 3600 0    50   ~ 0
+GND
+Text Label 4850 3700 0    50   ~ 0
+SDA.0
+Text Label 4850 3800 0    50   ~ 0
+GPIO.21
+Text Label 4850 3900 0    50   ~ 0
+GPIO.22
+Text Label 4850 4000 0    50   ~ 0
+GPIO.23
+Text Label 4850 4100 0    50   ~ 0
+GPIO.24
+Text Label 4850 4200 0    50   ~ 0
+GPIO.25
+Text Label 4850 4300 0    50   ~ 0
+GND
+Wire Wire Line
+	4850 2400 5450 2400
+Wire Wire Line
+	4850 2700 5450 2700
+Wire Wire Line
+	4850 2800 5450 2800
+Wire Wire Line
+	4850 3200 5450 3200
+Wire Wire Line
+	4850 3600 5450 3600
+Wire Wire Line
+	4850 3700 5450 3700
+Wire Wire Line
+	4850 3800 5450 3800
+Wire Wire Line
+	4850 3900 5450 3900
+Wire Wire Line
+	4850 4000 5450 4000
+Wire Wire Line
+	4850 4100 5450 4100
+Wire Wire Line
+	4850 4300 5450 4300
+Wire Wire Line
+	5950 4000 6550 4000
+Wire Wire Line
+	5950 3800 6550 3800
+Wire Wire Line
+	5950 3700 6550 3700
+Wire Wire Line
+	5950 3400 6550 3400
+Wire Wire Line
+	5950 3300 6550 3300
+Wire Wire Line
+	5950 3200 6550 3200
+Wire Wire Line
+	5950 3100 6550 3100
+Wire Wire Line
+	5950 3000 6550 3000
+Wire Wire Line
+	5950 2800 6550 2800
+Wire Wire Line
+	5950 2700 6550 2700
+Wire Wire Line
+	5950 2600 6550 2600
+Wire Wire Line
+	5950 2500 6550 2500
+Wire Wire Line
+	5950 2400 6550 2400
+Text Label 6250 3300 0    50   ~ 0
+GND
+Text Label 6250 4300 0    50   ~ 0
+GPIO.29
+Text Label 6250 4200 0    50   ~ 0
+GPIO.28
+Text Label 6250 4100 0    50   ~ 0
+GPIO.27
+Text Label 6250 4000 0    50   ~ 0
+GND
+Text Label 6250 3900 0    50   ~ 0
+GPIO.26
+Text Label 6250 3800 0    50   ~ 0
+GND
+Text Label 6250 3700 0    50   ~ 0
+SCL.0
+Text Label 6250 3600 0    50   ~ 0
+CE1
+Text Label 6250 3500 0    50   ~ 0
+CE0
+Text Label 6250 3400 0    50   ~ 0
+GPIO.6
+Text Label 6250 3200 0    50   ~ 0
+GPIO.5
+Text Label 6250 3100 0    50   ~ 0
+GPIO.4
+Text Label 6250 3000 0    50   ~ 0
+GND
+Text Label 6250 2900 0    50   ~ 0
+GPIO.1
+Text Label 6250 2800 0    50   ~ 0
+RXD
+Text Label 6250 2700 0    50   ~ 0
+TXD
+Text Label 6250 2600 0    50   ~ 0
+GND
+Text Label 6250 2500 0    50   ~ 0
+5V
+Text Label 6250 2400 0    50   ~ 0
+5V
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E94DE20
+P 1350 7300
+F 0 "D?" H 1350 7423 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 1350 7514 50  0000 C CNN
+F 2 "" H 1200 7300 50  0001 C CNN
+F 3 "~" H 1200 7300 50  0001 C CNN
+	1    1350 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9509CE
+P 1350 6850
+F 0 "D?" H 1350 7066 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 1350 6975 50  0000 C CNN
+F 2 "" H 1200 6850 50  0001 C CNN
+F 3 "~" H 1200 6850 50  0001 C CNN
+	1    1350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E95BA8D
+P 1500 7050
+F 0 "#PWR?" H 1500 6800 50  0001 C CNN
+F 1 "GND" V 1505 6922 50  0000 R CNN
+F 2 "" H 1500 7050 50  0001 C CNN
+F 3 "" H 1500 7050 50  0001 C CNN
+	1    1500 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 7000 1350 7050
+Wire Wire Line
+	1350 7050 1500 7050
+Connection ~ 1350 7050
+Wire Wire Line
+	1350 7050 1350 7150
+Text Label 700  6850 0    50   ~ 0
+GPIO.0
+Text Label 1800 6850 0    50   ~ 0
+GPIO.1
+Text Label 700  7300 0    50   ~ 0
+GPIO.2
+Text Label 1800 7300 0    50   ~ 0
+GPIO.3
+Wire Wire Line
+	700  6850 1000 6850
+Wire Wire Line
+	700  7300 1000 7300
+Wire Wire Line
+	1800 6850 1700 6850
+Wire Wire Line
+	1700 7300 1800 7300
+Wire Wire Line
+	5950 2900 6550 2900
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9A3EA3
+P 2800 7300
+F 0 "D?" H 2800 7423 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 2800 7514 50  0000 C CNN
+F 2 "" H 2650 7300 50  0001 C CNN
+F 3 "~" H 2650 7300 50  0001 C CNN
+	1    2800 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9A3EA9
+P 2800 6850
+F 0 "D?" H 2800 7066 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 2800 6975 50  0000 C CNN
+F 2 "" H 2650 6850 50  0001 C CNN
+F 3 "~" H 2650 6850 50  0001 C CNN
+	1    2800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9A3EAF
+P 2950 7050
+F 0 "#PWR?" H 2950 6800 50  0001 C CNN
+F 1 "GND" V 2955 6922 50  0000 R CNN
+F 2 "" H 2950 7050 50  0001 C CNN
+F 3 "" H 2950 7050 50  0001 C CNN
+	1    2950 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 7000 2800 7050
+Wire Wire Line
+	2800 7050 2950 7050
+Connection ~ 2800 7050
+Wire Wire Line
+	2800 7050 2800 7150
+Text Label 2150 6850 0    50   ~ 0
+SDA.1
+Text Label 3250 6850 0    50   ~ 0
+SCL.1
+Text Label 2150 7300 0    50   ~ 0
+MOSI
+Text Label 3250 7300 0    50   ~ 0
+MISO
+Wire Wire Line
+	2150 6850 2450 6850
+Wire Wire Line
+	2150 7300 2450 7300
+Wire Wire Line
+	3250 6850 3150 6850
+Wire Wire Line
+	3150 7300 3250 7300
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9AAA3D
+P 4350 7300
+F 0 "D?" H 4350 7423 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 4350 7514 50  0000 C CNN
+F 2 "" H 4200 7300 50  0001 C CNN
+F 3 "~" H 4200 7300 50  0001 C CNN
+	1    4350 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9AAA43
+P 4350 6850
+F 0 "D?" H 4350 7066 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 4350 6975 50  0000 C CNN
+F 2 "" H 4200 6850 50  0001 C CNN
+F 3 "~" H 4200 6850 50  0001 C CNN
+	1    4350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9AAA49
+P 4500 7050
+F 0 "#PWR?" H 4500 6800 50  0001 C CNN
+F 1 "GND" V 4505 6922 50  0000 R CNN
+F 2 "" H 4500 7050 50  0001 C CNN
+F 3 "" H 4500 7050 50  0001 C CNN
+	1    4500 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 7000 4350 7050
+Wire Wire Line
+	4350 7050 4500 7050
+Connection ~ 4350 7050
+Wire Wire Line
+	4350 7050 4350 7150
+Text Label 3700 6850 0    50   ~ 0
+SCLK
+Text Label 4800 6850 0    50   ~ 0
+CE0
+Text Label 3700 7300 0    50   ~ 0
+CE1
+Text Label 4800 7300 0    50   ~ 0
+GPIO.29
+Wire Wire Line
+	3700 6850 4000 6850
+Wire Wire Line
+	3700 7300 4000 7300
+Wire Wire Line
+	4800 6850 4700 6850
+Wire Wire Line
+	4700 7300 4800 7300
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9B283D
+P 5900 7300
+F 0 "D?" H 5900 7423 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 5900 7514 50  0000 C CNN
+F 2 "" H 5750 7300 50  0001 C CNN
+F 3 "~" H 5750 7300 50  0001 C CNN
+	1    5900 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5E9B2843
+P 5900 6850
+F 0 "D?" H 5900 7066 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 5900 6975 50  0000 C CNN
+F 2 "" H 5750 6850 50  0001 C CNN
+F 3 "~" H 5750 6850 50  0001 C CNN
+	1    5900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9B2849
+P 6050 7050
+F 0 "#PWR?" H 6050 6800 50  0001 C CNN
+F 1 "GND" V 6055 6922 50  0000 R CNN
+F 2 "" H 6050 7050 50  0001 C CNN
+F 3 "" H 6050 7050 50  0001 C CNN
+	1    6050 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 7000 5900 7050
+Wire Wire Line
+	5900 7050 6050 7050
+Connection ~ 5900 7050
+Wire Wire Line
+	5900 7050 5900 7150
+Text Label 5250 6850 0    50   ~ 0
+GPIO.28
+Text Label 6350 6850 0    50   ~ 0
+GPIO.27
+Text Label 5250 7300 0    50   ~ 0
+GPIO.26
+Text Label 6350 7300 0    50   ~ 0
+GPIO.25
+Wire Wire Line
+	5250 6850 5550 6850
+Wire Wire Line
+	5250 7300 5550 7300
+Wire Wire Line
+	6350 6850 6250 6850
+Wire Wire Line
+	6250 7300 6350 7300
+Wire Wire Line
+	5950 4300 6550 4300
+Wire Wire Line
+	5950 3900 6550 3900
+Wire Wire Line
+	5950 4100 6550 4100
+Wire Wire Line
+	5950 4200 6550 4200
+Wire Wire Line
+	5950 3500 6550 3500
+Wire Wire Line
+	5950 3600 6550 3600
+Wire Wire Line
+	4850 2500 5450 2500
+Wire Wire Line
+	5450 2600 4850 2600
+Wire Wire Line
+	5450 2900 4850 2900
+Wire Wire Line
+	5450 3000 4850 3000
+Wire Wire Line
+	5450 3100 4850 3100
+Wire Wire Line
+	5450 3300 4850 3300
+Wire Wire Line
+	5450 3400 4850 3400
+Wire Wire Line
+	5450 3500 4850 3500
+Wire Wire Line
+	5450 4200 4850 4200
+$EndSCHEMATC
