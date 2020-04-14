@@ -34,8 +34,8 @@ L Transistor_FET:2N7000 Q?
 U 1 1 5EAD01BB
 P 3100 4800
 AR Path="/5E90B2B2/5EAD01BB" Ref="Q?"  Part="1" 
-AR Path="/5EAD01BB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3300 4650 50  0000 L CNN
+AR Path="/5EAD01BB" Ref="Q1"  Part="1" 
+F 0 "Q1" H 3300 4650 50  0000 L CNN
 F 1 "2N7000" H 3300 4550 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 4725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3100 4800 50  0001 L CNN
@@ -64,8 +64,8 @@ L Device:R R?
 U 1 1 5EAD01C9
 P 2550 4800
 AR Path="/5E90B2B2/5EAD01C9" Ref="R?"  Part="1" 
-AR Path="/5EAD01C9" Ref="R?"  Part="1" 
-F 0 "R?" V 2757 4800 50  0000 C CNN
+AR Path="/5EAD01C9" Ref="R1"  Part="1" 
+F 0 "R1" V 2757 4800 50  0000 C CNN
 F 1 "1K" V 2666 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 4800 50  0001 C CNN
 F 3 "~" H 2550 4800 50  0001 C CNN
@@ -77,8 +77,8 @@ L Device:R R?
 U 1 1 5EAD01CF
 P 2800 5100
 AR Path="/5E90B2B2/5EAD01CF" Ref="R?"  Part="1" 
-AR Path="/5EAD01CF" Ref="R?"  Part="1" 
-F 0 "R?" H 2870 5146 50  0000 L CNN
+AR Path="/5EAD01CF" Ref="R2"  Part="1" 
+F 0 "R2" H 2870 5146 50  0000 L CNN
 F 1 "47K" H 2870 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 5100 50  0001 C CNN
 F 3 "~" H 2800 5100 50  0001 C CNN
@@ -153,8 +153,8 @@ L Connector:USB_B_Micro J?
 U 1 1 5EAD66D6
 P 2350 2700
 AR Path="/5E915994/5EAD66D6" Ref="J?"  Part="1" 
-AR Path="/5EAD66D6" Ref="J?"  Part="1" 
-F 0 "J?" H 2407 3167 50  0000 C CNN
+AR Path="/5EAD66D6" Ref="J1"  Part="1" 
+F 0 "J1" H 2407 3167 50  0000 C CNN
 F 1 "USB_B_Micro" H 2407 3076 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 2500 2650 50  0001 C CNN
 F 3 "~" H 2500 2650 50  0001 C CNN
@@ -167,8 +167,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5EAE307F
 P 8300 3600
 AR Path="/5E914BA5/5EAE307F" Ref="J?"  Part="1" 
-AR Path="/5EAE307F" Ref="J?"  Part="1" 
-F 0 "J?" H 8380 3592 50  0000 L CNN
+AR Path="/5EAE307F" Ref="J3"  Part="1" 
+F 0 "J3" H 8380 3592 50  0000 L CNN
 F 1 "Conn_01x02" H 8380 3501 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 8300 3600 50  0001 C CNN
 F 3 "~" H 8300 3600 50  0001 C CNN
@@ -180,8 +180,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5EAE3085
 P 8300 3900
 AR Path="/5E914BA5/5EAE3085" Ref="J?"  Part="1" 
-AR Path="/5EAE3085" Ref="J?"  Part="1" 
-F 0 "J?" H 8380 3892 50  0000 L CNN
+AR Path="/5EAE3085" Ref="J4"  Part="1" 
+F 0 "J4" H 8380 3892 50  0000 L CNN
 F 1 "Conn_01x02" H 8380 3801 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 8300 3900 50  0001 C CNN
 F 3 "~" H 8300 3900 50  0001 C CNN
@@ -189,10 +189,10 @@ F 3 "~" H 8300 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse F?
+L Device:Fuse F1
 U 1 1 5EAF3CDE
 P 3550 2500
-F 0 "F?" V 3353 2500 50  0000 C CNN
+F 0 "F1" V 3353 2500 50  0000 C CNN
 F 1 "Fuse" V 3444 2500 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" V 3480 2500 50  0001 C CNN
 F 3 "~" H 3550 2500 50  0001 C CNN
@@ -201,10 +201,10 @@ F 4 "https://item.szlcsc.com/146654.html" V 3550 2500 50  0001 C CNN "Seller"
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_SPDT SW?
+L Switch:SW_SPDT SW1
 U 1 1 5EAF599A
 P 3650 4600
-F 0 "SW?" H 3650 4885 50  0000 C CNN
+F 0 "SW1" H 3650 4885 50  0000 C CNN
 F 1 "SW_SPDT" H 3650 4794 50  0000 C CNN
 F 2 "" H 3650 4600 50  0001 C CNN
 F 3 "~" H 3650 4600 50  0001 C CNN
@@ -212,10 +212,10 @@ F 3 "~" H 3650 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5EBABE63
 P 8300 3150
-F 0 "J?" H 8380 3142 50  0000 L CNN
+F 0 "J2" H 8380 3142 50  0000 L CNN
 F 1 "Conn_01x04" H 8380 3051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8300 3150 50  0001 C CNN
 F 3 "~" H 8300 3150 50  0001 C CNN
@@ -316,8 +316,8 @@ L Device:R R?
 U 1 1 5EBDCC0E
 P 4050 2750
 AR Path="/5E90B2B2/5EBDCC0E" Ref="R?"  Part="1" 
-AR Path="/5EBDCC0E" Ref="R?"  Part="1" 
-F 0 "R?" H 4120 2796 50  0000 L CNN
+AR Path="/5EBDCC0E" Ref="R4"  Part="1" 
+F 0 "R4" H 4120 2796 50  0000 L CNN
 F 1 "1K" H 4120 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 2750 50  0001 C CNN
 F 3 "~" H 4050 2750 50  0001 C CNN
@@ -329,8 +329,8 @@ L Device:LED D?
 U 1 1 5EBDCC14
 P 4050 3100
 AR Path="/5E90B2B2/5EBDCC14" Ref="D?"  Part="1" 
-AR Path="/5EBDCC14" Ref="D?"  Part="1" 
-F 0 "D?" V 4089 2983 50  0000 R CNN
+AR Path="/5EBDCC14" Ref="D1"  Part="1" 
+F 0 "D1" V 4089 2983 50  0000 R CNN
 F 1 "LED" V 3998 2983 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4050 3100 50  0001 C CNN
 F 3 "~" H 4050 3100 50  0001 C CNN
@@ -383,8 +383,8 @@ L Device:R R?
 U 1 1 5EBEA222
 P 3200 4150
 AR Path="/5E90B2B2/5EBEA222" Ref="R?"  Part="1" 
-AR Path="/5EBEA222" Ref="R?"  Part="1" 
-F 0 "R?" V 3407 4150 50  0000 C CNN
+AR Path="/5EBEA222" Ref="R3"  Part="1" 
+F 0 "R3" V 3407 4150 50  0000 C CNN
 F 1 "10K" V 3316 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3130 4150 50  0001 C CNN
 F 3 "~" H 3200 4150 50  0001 C CNN
@@ -417,10 +417,10 @@ This connects to I2C OLED screen\n
 Text Notes 2300 3650 0    50   ~ 0
 This connects to 18650*2 batteries (8.4V)
 $Comp
-L Device:Battery BT?
+L Device:Battery BT1
 U 1 1 5EBFE8F3
 P 2700 3800
-F 0 "BT?" V 3000 3650 50  0000 L CNN
+F 0 "BT1" V 3000 3650 50  0000 L CNN
 F 1 "LiBattery" V 2900 3650 50  0000 L CNN
 F 2 "" V 2700 3860 50  0001 C CNN
 F 3 "~" V 2700 3860 50  0001 C CNN
