@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -35,14 +35,6 @@ F 3 "" H 6900 5050 50  0001 C CNN
 	1    6900 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 4250 6400 4250
-Wire Wire Line
-	7150 4350 6400 4350
-Wire Wire Line
-	7150 4450 6400 4450
-Wire Wire Line
-	7150 4550 6400 4550
 Wire Wire Line
 	7650 4850 7650 4950
 Wire Wire Line
@@ -385,8 +377,6 @@ Connection ~ 6900 4050
 Wire Wire Line
 	6900 4050 6900 3950
 Wire Wire Line
-	8350 4050 8350 3200
-Wire Wire Line
 	8350 4250 9050 4250
 Connection ~ 9050 4250
 Wire Wire Line
@@ -697,4 +687,131 @@ Wire Wire Line
 Connection ~ 2250 4650
 Text Notes 1700 5200 1    50   ~ 0
 I2C pull up resistors
+$Comp
+L Device:R R?
+U 1 1 5E968EC1
+P 5500 3950
+F 0 "R?" V 5700 3900 50  0000 L CNN
+F 1 "2R" V 5600 3900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 3950 50  0001 C CNN
+F 3 "~" H 5500 3950 50  0001 C CNN
+	1    5500 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E97A58B
+P 5500 4250
+F 0 "R?" V 5700 4200 50  0000 L CNN
+F 1 "2R" V 5600 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 4250 50  0001 C CNN
+F 3 "~" H 5500 4250 50  0001 C CNN
+	1    5500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E98311B
+P 5500 4550
+F 0 "R?" V 5700 4500 50  0000 L CNN
+F 1 "2R" V 5600 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 4550 50  0001 C CNN
+F 3 "~" H 5500 4550 50  0001 C CNN
+	1    5500 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E98BD49
+P 5500 4850
+AR Path="/5E915994/5E98BD49" Ref="R?"  Part="1" 
+AR Path="/5E914BA5/5E98BD49" Ref="R?"  Part="1" 
+F 0 "R?" V 5700 4800 50  0000 L CNN
+F 1 "2R" V 5600 4800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 4850 50  0001 C CNN
+F 3 "~" H 5500 4850 50  0001 C CNN
+	1    5500 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3950 5000 3950
+Wire Wire Line
+	5350 4250 5000 4250
+Wire Wire Line
+	5350 4550 5000 4550
+Wire Wire Line
+	5350 4850 5000 4850
+Wire Wire Line
+	5650 4250 6100 4250
+Wire Wire Line
+	6100 4250 6100 4350
+Wire Wire Line
+	6100 4350 7150 4350
+Wire Wire Line
+	5650 4550 6100 4550
+Wire Wire Line
+	6100 4550 6100 4450
+Wire Wire Line
+	6100 4450 7150 4450
+Wire Wire Line
+	5650 3950 6200 3950
+Wire Wire Line
+	6200 3950 6200 4250
+Wire Wire Line
+	6200 4250 7150 4250
+Wire Wire Line
+	5650 4850 6200 4850
+Wire Wire Line
+	6200 4850 6200 4550
+Wire Wire Line
+	6200 4550 7150 4550
+$Comp
+L Device:R R?
+U 1 1 5EA10DA4
+P 5500 2700
+AR Path="/5E915994/5EA10DA4" Ref="R?"  Part="1" 
+AR Path="/5E914BA5/5EA10DA4" Ref="R?"  Part="1" 
+F 0 "R?" V 5700 2650 50  0000 L CNN
+F 1 "2R" V 5600 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 2700 50  0001 C CNN
+F 3 "~" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 2700 5650 2700
+Wire Wire Line
+	8350 2700 8350 4050
+Wire Wire Line
+	5350 2700 5000 2700
+$Comp
+L Device:R R?
+U 1 1 5EA4BBA6
+P 8350 2450
+AR Path="/5E915994/5EA4BBA6" Ref="R?"  Part="1" 
+AR Path="/5E914BA5/5EA4BBA6" Ref="R?"  Part="1" 
+F 0 "R?" V 8550 2400 50  0000 L CNN
+F 1 "10K" V 8450 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8280 2450 50  0001 C CNN
+F 3 "~" H 8350 2450 50  0001 C CNN
+	1    8350 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 2700 8350 2600
+Connection ~ 8350 2700
+Wire Wire Line
+	8350 2000 8350 2300
+Text Label 8350 2200 1    50   ~ 0
+3.3V
+Text Label 5000 3950 0    50   ~ 0
+GPIO.0
+Text Label 5000 4250 0    50   ~ 0
+GPIO.1
+Text Label 5000 4550 0    50   ~ 0
+GPIO.2
+Text Label 5000 4850 0    50   ~ 0
+GPIO.3
+Text Label 5000 2700 0    50   ~ 0
+GPIO.0
 $EndSCHEMATC

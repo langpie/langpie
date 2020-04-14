@@ -462,8 +462,8 @@ Text Notes 3450 4900 0    50   ~ 0
 System power switch
 Text Notes 7450 7050 0    98   ~ 0
 This is an open source raspberry pi based \nsmart car design - LangPie project V1.0\nURL: https://github.com/langpie/langpie
-Text Notes 6500 6400 0    98   ~ 0
-This schematic is NOT finished yet if you this line of words!\n
+Text Notes 6950 6400 0    98   ~ 0
+This schematic is NOT finished yet if you see this line!\n
 $Sheet
 S 4600 2300 1000 1000
 U 5E915994
