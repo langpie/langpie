@@ -238,7 +238,7 @@
   )
 
   (module Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm (layer F.Cu) (tedit 5AEE5F19) (tstamp 5E9736D6)
-    (at 60.325 97.409)
+    (at 126.619 37.719)
     (descr "Wire solder connection")
     (tags connector)
     (path /5EBFE8F3)
@@ -1742,7 +1742,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E973A06)
-    (at 54.864 87.376)
+    (at 121.158 27.686)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5EAD01BB)
@@ -1783,7 +1783,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E973A17)
-    (at 61.0085 81.026)
+    (at 127.3025 21.336)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EAD01C9)
@@ -1819,7 +1819,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E973A28)
-    (at 59.817 85.852)
+    (at 126.111 26.162)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EAD01CF)
@@ -1855,7 +1855,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E973A39)
-    (at 56.769 83.439)
+    (at 123.063 23.749)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBEA222)
