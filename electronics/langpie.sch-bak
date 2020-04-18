@@ -298,18 +298,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5EBC675D
-P 2400 3800
+P 2600 4100
 AR Path="/5E90B2B2/5EBC675D" Ref="#PWR?"  Part="1" 
 AR Path="/5EBC675D" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 2400 3550 50  0001 C CNN
-F 1 "GND" H 2405 3627 50  0000 C CNN
-F 2 "" H 2400 3800 50  0001 C CNN
-F 3 "" H 2400 3800 50  0001 C CNN
-	1    2400 3800
-	0    1    1    0   
+F 0 "#PWR0107" H 2600 3850 50  0001 C CNN
+F 1 "GND" H 2605 3927 50  0000 C CNN
+F 2 "" H 2600 4100 50  0001 C CNN
+F 3 "" H 2600 4100 50  0001 C CNN
+	1    2600 4100
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2900 3800 3200 3800
 Connection ~ 5750 3350
 $Comp
 L Device:R R?
@@ -417,19 +415,6 @@ This connects to I2C OLED screen\n
 Text Notes 2300 3650 0    50   ~ 0
 This connects to 18650*2 batteries (8.4V)
 $Comp
-L Device:Battery BT1
-U 1 1 5EBFE8F3
-P 2700 3800
-F 0 "BT1" V 3000 3650 50  0000 L CNN
-F 1 "LiBattery" V 2900 3650 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 2700 3860 50  0001 C CNN
-F 3 "~" V 2700 3860 50  0001 C CNN
-	1    2700 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 3800 2400 3800
-$Comp
 L power:GND #PWR?
 U 1 1 5EC0F274
 P 8000 2900
@@ -473,4 +458,25 @@ F2 "VBUS" I L 4600 2500 50
 F3 "BATT" I R 5600 2500 50 
 F4 "GND" I L 4600 3150 50 
 $EndSheet
+$Comp
+L langpie:18650-Battery U4
+U 1 1 5E9C43B4
+P 2900 3650
+F 0 "U4" V 3600 2850 50  0000 L CNN
+F 1 "18650-Battery" V 3500 2850 50  0000 L CNN
+F 2 "" H 2900 3600 98  0001 C CNN
+F 3 "" H 2900 3600 98  0001 C CNN
+	1    2900 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 3800 3200 3800
+Wire Wire Line
+	2200 3800 2100 3800
+Wire Wire Line
+	2100 3800 2100 4100
+Wire Wire Line
+	2100 4100 2200 4100
+Wire Wire Line
+	2500 4100 2600 4100
 $EndSCHEMATC
