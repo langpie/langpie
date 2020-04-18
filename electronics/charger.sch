@@ -398,4 +398,6 @@ Wire Wire Line
 	3350 3150 2650 3150
 Text HLabel 9150 4850 2    50   Input ~ 0
 GND
+Wire Wire Line
+	6600 4350 6600 4850
 $EndSCHEMATC

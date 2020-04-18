@@ -335,7 +335,7 @@ F 3 "~" H 4050 3100 50  0001 C CNN
 	1    4050 3100
 	0    -1   -1   0   
 $EndComp
-Text Notes 3700 2450 0    50   ~ 0
+Text Notes 3700 2400 0    50   ~ 0
 USB voltage input \n    status LED
 $Comp
 L power:GND #PWR?
@@ -404,7 +404,7 @@ Connection ~ 4200 4600
 Connection ~ 3200 4500
 Text Label 1950 4800 0    50   ~ 0
 USB_VBUS
-Text Label 2850 2500 0    50   ~ 0
+Text Label 3700 2500 0    50   ~ 0
 USB_VBUS
 Wire Wire Line
 	7250 3250 8100 3250

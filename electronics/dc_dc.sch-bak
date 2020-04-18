@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L langpie:MP1584 U2
-U 1 1 5E8CC2D7
-P 5300 3550
-F 0 "U2" H 5350 3700 50  0000 C CNN
-F 1 "MP1584" H 5450 3600 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" H 5450 3650 50  0001 C CNN
-F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584/document_id/204" H 5450 3650 50  0001 C CNN
-	1    5300 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C8
 U 1 1 5E8CFB92
 P 4850 3000
@@ -164,8 +153,6 @@ Wire Wire Line
 	6200 4000 6350 4000
 Wire Wire Line
 	6350 4000 6350 4050
-Wire Wire Line
-	5700 4200 5700 4700
 $Comp
 L Device:R R17
 U 1 1 5E8ED7C3
@@ -355,4 +342,26 @@ Text HLabel 3250 4500 0    50   Input ~ 0
 GND
 Wire Wire Line
 	3250 4500 4850 4500
+$Comp
+L langpie:MP1584 U2
+U 1 1 5EA1C0D5
+P 5300 3550
+F 0 "U2" H 5350 3800 50  0000 C CNN
+F 1 "MP1584" H 5450 3700 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" H 5650 3650 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584/document_id/204" H 5450 3650 50  0001 C CNN
+	1    5300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4350 5700 4350
+Connection ~ 5700 4350
+Wire Wire Line
+	5700 4350 5700 4700
+Wire Wire Line
+	5800 4200 5800 4350
+Wire Wire Line
+	5800 4350 5700 4350
+Wire Wire Line
+	5600 4200 5600 4350
 $EndSCHEMATC
