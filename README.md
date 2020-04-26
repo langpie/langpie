@@ -45,6 +45,7 @@
 * lqh  lqh#langpie.ga
 * kwanghue kwanghue#langpie.ga
 * 张翼 zy#langpie.ga
+* iChizer0 
 
 ##  项目站点 Project website: 
 
