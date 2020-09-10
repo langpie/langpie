@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT9193-33
+D The RT9193 is designed for portable RF and wireless
+$ENDCMP
+#
+$CMP TXS0108EPW
+D Bidirectional  level-shifting voltage translator, TSSOP-20
+K 8-bit
+F www.ti.com/lit/ds/symlink/txs0108e.pdf
+$ENDCMP
+#
+#End Doc Library
